@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+body{
+    font-family: $font-main;
+    background-color: $color-white;
+    color: $color-text;
+    font-size: 18px;
+}
+
+a{
+    color: $color-text;
+    transition: color 0.2s ease-in;
+    &:hover{
+        color: $color-button;
+    }
+}
+
+.container{
+    padding: 0 15px;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.visually-hidden {
+    height: 1px;
+    overflow: hidden;
+    width: 1px;
+    position: absolute;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+    white-space: nowrap;
+}
+
+.open{
+    display: flex !important;
+}
+
+.none{
+    display: none !important;
+}
+
+@media screen and (max-width: 1440px) {
+
+}
+@media screen and (max-width: 1200px) {
+
+}
+
+@media screen and (max-width: 998px) {
+
+}
+
+@media screen and (max-width: 768px) {
+ 
+}
+
+@media screen and (max-width: 576px) {
+
+}
+
+.title {
+    color: $color-text-big-2;
+    font-family: $font-main;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+}
+
+.text {
+    color: $color-text;
+    font-family: $font-main;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.button {
+    display: flex;
+    width: 255px;
+    height: 70px;
+    padding: 20px 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    border: 1px solid $color-button;
+    color: $color-button;
+    transition: all 0.2s ease-in;
+    &:hover{
+        background: #7875FE;
+        color: #fff;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: $extra_extra_large) {
+
+}
+
+@media screen and (max-width: $extra_large) {
+
+}
+
+@media screen and (max-width: $large) {
+
+}
+
+@media screen and (max-width: $medium) {
+ 
+}
+
+@media screen and (max-width: $small) {
+
+}
+
+
+

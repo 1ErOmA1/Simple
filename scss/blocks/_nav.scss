@@ -1,0 +1,21 @@
+.nav__list{
+    display: flex;
+
+    li{
+        padding: 28px 30px;
+        &:last-child{
+            padding: 28px 0px;
+        }
+    }
+}
+
+@media (max-width: $large) {
+    .nav__list{
+        padding: 16px 30px;
+        li{
+            &:last-child{
+                padding: 16px 30px;
+            }
+        }
+    }
+}

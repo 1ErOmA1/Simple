@@ -1,0 +1,38 @@
+.book{
+    padding-top: 90px;
+    img{
+        overflow: hidden;
+    }
+}
+
+.main-text__book{
+    padding-top: 24px;
+}
+
+.text__book {
+    margin-top: 8px;
+    margin-bottom: 30px;
+    line-height: 170%;
+}
+
+@media (max-width: $extra_large) {
+    .book{
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+
+@media (max-width: $large) {
+    .button__book{
+        margin-bottom: 30px;
+    }
+    .book{
+        img{
+            width: 90%;
+            height: 90%;
+            margin: 0 auto;
+        }
+    }
+}
